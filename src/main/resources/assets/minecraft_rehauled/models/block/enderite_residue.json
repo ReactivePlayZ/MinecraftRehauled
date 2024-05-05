@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_rehauled:block/enderite_residue_top",
+    "east": "minecraft_rehauled:block/enderite_residue_side",
+    "north": "minecraft_rehauled:block/enderite_residue_side",
+    "particle": "minecraft_rehauled:block/enderite_residue_side",
+    "south": "minecraft_rehauled:block/enderite_residue_side",
+    "up": "minecraft_rehauled:block/enderite_residue_top",
+    "west": "minecraft_rehauled:block/enderite_residue_side"
+  }
+}

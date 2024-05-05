@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft_rehauled:block/advanced_table_bottom",
+    "east": "minecraft_rehauled:block/advanced_table_side",
+    "north": "minecraft_rehauled:block/advanced_table_front",
+    "particle": "minecraft_rehauled:block/advanced_table_front",
+    "south": "minecraft_rehauled:block/advanced_table_side",
+    "up": "minecraft_rehauled:block/advanced_table_top",
+    "west": "minecraft_rehauled:block/advanced_table_front"
+  }
+}

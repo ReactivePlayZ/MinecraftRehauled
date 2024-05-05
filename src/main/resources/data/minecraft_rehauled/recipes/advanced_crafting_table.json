@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    "CSC",
+    "CCC"
+  ],
+  "key": {
+      "C": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "T": {
+        "item": "minecraft:crafting_table"
+      },
+      "S": {
+        "item": "minecraft:smithing_table"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      }
+  },
+  "result": {
+    "item": "minecraft_rehauled:advanced_crafting_table"
+  }
+}

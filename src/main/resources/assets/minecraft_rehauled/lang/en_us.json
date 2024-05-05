@@ -1,0 +1,18 @@
+{
+  "item.minecraft_rehauled.katana": "Katana",
+  "item.minecraft_rehauled.enderite_ingot": "Enderite Ingot",
+  "item.minecraft_rehauled.impure_enderite_scrap": "Impure Enderite Scrap",
+  "item.minecraft_rehauled.enderite_scrap": "Enderite Scrap",
+  "item.minecraft_rehauled.bottle_of_fire": "Bottle of Fire",
+  "item.minecraft_rehauled.bottle_of_impure_residue": "Bottle of Impure Residue",
+  "item.minecraft_rehauled.bucket_of_impure_residue": "Bucket of Impure Residue",
+  "item.minecraft_rehauled.metal_detector": "Metal Detector",
+
+  "block.minecraft_rehauled.advanced_crafting_table": "Advanced Crafting Table",
+  "block.minecraft_rehauled.enderite_residue": "Enderite Residue",
+  "block.minecraft_rehauled.cobbled_end_stone": "Cobbled Endstone",
+  "block.minecraft_rehauled.sound_block": "Sound Block",
+
+  "itemgroup.rehauled_items": "Rehauled Items",
+  "itemgroup.rehauled_blocks": "Rehauled Blocks"
+}
