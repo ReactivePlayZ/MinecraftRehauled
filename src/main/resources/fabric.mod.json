@@ -11,9 +11,14 @@
 		"homepage": "https://github.com/ReactivePlayZ/Minecraft-Rehauled",
 		"sources": "https://github.com/ReactivePlayZ/Minecraft-Rehauled"
 	},
+	"custom": {
+		"modmenu": {
+			"minecraft_rehauled.discord": "https://discord.gg/Agz7ygXPzJ"
+		}
+	},
 	"license": "MIT",
 	"icon": "assets/minecraft_rehauled/icon.png",
-	"environment": "server",
+	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.reactiveplayz.minecraftrehauled.MinecraftRehauled"
