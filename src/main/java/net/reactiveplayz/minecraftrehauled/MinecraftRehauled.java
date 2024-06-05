@@ -15,6 +15,7 @@ public class MinecraftRehauled implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModItems.registerModFuelSources();
 		ModBlocks.registerModBlocks();
 	}
 }

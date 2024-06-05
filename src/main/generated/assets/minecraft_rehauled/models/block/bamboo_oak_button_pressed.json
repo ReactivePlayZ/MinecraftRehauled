@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "minecraft_rehauled:block/bamboo_oak_planks"
+  }
+}

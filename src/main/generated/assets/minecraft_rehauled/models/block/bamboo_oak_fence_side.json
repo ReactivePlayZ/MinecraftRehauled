@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "minecraft_rehauled:block/bamboo_oak_planks"
+  }
+}

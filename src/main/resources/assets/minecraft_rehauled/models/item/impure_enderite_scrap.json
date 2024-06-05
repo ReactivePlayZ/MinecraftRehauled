@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "minecraft_rehauled:item/impure_enderite_scrap"
-  }
-}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft_rehauled:enderite_residue",
+    "minecraft_rehauled:bamboo_oak_planks",
+    "minecraft_rehauled:bamboo_oak_stairs",
+    "minecraft_rehauled:bamboo_oak_slab",
+    "minecraft_rehauled:bamboo_oak_pressure_plate",
+    "minecraft_rehauled:bamboo_oak_button",
+    "minecraft_rehauled:bamboo_oak_fence",
+    "minecraft_rehauled:bamboo_oak_fence_gate",
+    "minecraft_rehauled:bamboo_oak_door",
+    "minecraft_rehauled:bamboo_oak_trapdoor",
+    "minecraft_rehauled:sound_block"
+  ]
+}

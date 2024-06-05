@@ -1,18 +1,31 @@
 {
-  "item.minecraft_rehauled.katana": "Katana",
-  "item.minecraft_rehauled.enderite_ingot": "Enderite Ingot",
-  "item.minecraft_rehauled.impure_enderite_scrap": "Impure Enderite Scrap",
-  "item.minecraft_rehauled.enderite_scrap": "Enderite Scrap",
+  "block.minecraft_rehauled.advanced_crafting_table": "Advanced Crafting Table",
+  "block.minecraft_rehauled.cobbled_end_stone": "Cobbled Endstone",
+  "block.minecraft_rehauled.enderite_block": "Enderite Block",
+  "block.minecraft_rehauled.enderite_residue": "Enderite Residue",
+  "block.minecraft_rehauled.sound_block": "Sound Block",
+  "block.minecraft_rehauled.bamboo_oak_planks": "Bamboo Oak Planks",
+  "block.minecraft_rehauled.bamboo_oak_stairs": "Bamboo Oak Stairs",
+  "block.minecraft_rehauled.bamboo_oak_slab": "Bamboo Oak Slab",
+  "block.minecraft_rehauled.bamboo_oak_button": "Bamboo Oak Button",
+  "block.minecraft_rehauled.bamboo_oak_pressure_plate": "Bamboo Oak Pressure Plate",
+  "block.minecraft_rehauled.bamboo_oak_fence": "Bamboo Oak Fence",
+  "block.minecraft_rehauled.bamboo_oak_fence_gate": "Bamboo Oak Fence Gate",
+  "block.minecraft_rehauled.bamboo_oak_door": "Bamboo Oak Door",
+  "block.minecraft_rehauled.bamboo_oak_trapdoor": "Bamboo Oak Trapdoor",
+
   "item.minecraft_rehauled.bottle_of_fire": "Bottle of Fire",
   "item.minecraft_rehauled.bottle_of_impure_residue": "Bottle of Impure Residue",
   "item.minecraft_rehauled.bucket_of_impure_residue": "Bucket of Impure Residue",
+  "item.minecraft_rehauled.enderite_ingot": "Enderite Ingot",
+  "item.minecraft_rehauled.enderite_scrap": "Enderite Scrap",
+  "item.minecraft_rehauled.impure_enderite_scrap": "Impure Enderite Scrap",
+  "item.minecraft_rehauled.katana": "Katana",
   "item.minecraft_rehauled.metal_detector": "Metal Detector",
+  "item.minecraft_rehauled.tomato": "Tomato",
 
-  "block.minecraft_rehauled.advanced_crafting_table": "Advanced Crafting Table",
-  "block.minecraft_rehauled.enderite_residue": "Enderite Residue",
-  "block.minecraft_rehauled.cobbled_end_stone": "Cobbled Endstone",
-  "block.minecraft_rehauled.sound_block": "Sound Block",
-
+  "itemgroup.rehauled_blocks": "Rehauled Blocks",
   "itemgroup.rehauled_items": "Rehauled Items",
-  "itemgroup.rehauled_blocks": "Rehauled Blocks"
+
+  "tooltip.minecraft_rehauled.metal_detector": "Can detect metal underground."
 }

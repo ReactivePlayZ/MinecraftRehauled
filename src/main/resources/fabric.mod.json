@@ -1,18 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "minecraft-rehauled",
+	"id": "minecraft_rehauled",
 	"version": "${version}",
 	"name": "Minecraft Rehauled",
 	"description": "Minecraft Rehauled is a mod that adds to the game in a somewhat vanilla style! (P.S: Rehauled isn't an actual word)",
 	"authors": [
-		"ReactivePlayZ"
+		{
+			"contact": {
+				"sources": "https://github.com/ReactivePlayZ"
+			},
+			"name": "ReactivePlayZ"
+		}
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ReactivePlayZ/Minecraft-Rehauled",
+		"discord": "https://discord.gg/Agz7ygXPzJ"
 	},
 	"license": "MIT",
-	"icon": "assets/minecraft-rehauled/icon.png",
+	"icon": "assets/minecraft_rehauled/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

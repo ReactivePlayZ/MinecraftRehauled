@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "minecraft_rehauled:block/bamboo_oak_planks"
+  }
+}
