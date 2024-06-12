@@ -1,5 +1,5 @@
 # Releases
-> All releases can be found on [my modrinth](https://modrinth.com/user/reactiveplayz)
+> All releases can be found on [my modrinth](https://modrinth.com/user/reactiveplayz).
 
 #
 > Minecraft Rehauled started out as a datapack to mimick the feel of having mods. I found it actually more suitible for Minecraft Rehauled to be a mod.
