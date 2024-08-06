@@ -111,6 +111,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.IMPURE_ENDERITE_SCRAP)
                 .add(ModItems.ENDERITE_INGOT);
 
+
+        getOrCreateTagBuilder(ModTags.Items.AETHEREAL_ITEMS)
+                .add(ModItems.AETHEREAL_SWORD)
+                .add(ModItems.AETHEREAL_PICKAXE)
+                .add(ModItems.AETHEREAL_AXE)
+                .add(ModItems.AETHEREAL_KNIFE)
+                .add(ModItems.AETHEREAL_SHOVEL)
+                .add(ModItems.AETHEREAL_HOE);
+
         getOrCreateTagBuilder(ModTags.Items.BAMBOO_OAK_BLOCKS)
                 .add(ModBlocks.BAMBOO_OAK_PLANKS.asItem())
                 .add(ModBlocks.BAMBOO_OAK_STAIRS.asItem())
