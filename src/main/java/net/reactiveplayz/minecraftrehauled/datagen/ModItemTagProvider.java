@@ -26,7 +26,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.DIAMOND_KNIFE)
                 .add(ModItems.NETHERITE_KNIFE)
                 .add(ModItems.AETHEREAL_KNIFE)
-                .add(ModItems.AETHEREAL_SWORD);
+
+                .add(ModItems.WOODEN_DAGGER)
+                .add(ModItems.STONE_DAGGER)
+                .add(ModItems.IRON_DAGGER)
+                .add(ModItems.GOLDEN_DAGGER)
+                .add(ModItems.DIAMOND_DAGGER)
+                .add(ModItems.NETHERITE_DAGGER)
+                .add(ModItems.AETHEREAL_DAGGER)
+
+                .add(ModItems.AETHEREAL_SWORD)
+        ;
 
         getOrCreateTagBuilder(ItemTags.TOOLS)
                 .add(ModItems.WOODEN_KNIFE)
@@ -36,11 +46,21 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.DIAMOND_KNIFE)
                 .add(ModItems.NETHERITE_KNIFE)
                 .add(ModItems.AETHEREAL_KNIFE)
+
+                .add(ModItems.WOODEN_DAGGER)
+                .add(ModItems.STONE_DAGGER)
+                .add(ModItems.IRON_DAGGER)
+                .add(ModItems.GOLDEN_DAGGER)
+                .add(ModItems.DIAMOND_DAGGER)
+                .add(ModItems.NETHERITE_DAGGER)
+                .add(ModItems.AETHEREAL_DAGGER)
+
                 .add(ModItems.AETHEREAL_SWORD)
                 .add(ModItems.AETHEREAL_PICKAXE)
                 .add(ModItems.AETHEREAL_AXE)
                 .add(ModItems.AETHEREAL_SHOVEL)
-                .add(ModItems.AETHEREAL_HOE);
+                .add(ModItems.AETHEREAL_HOE)
+        ;
 
         getOrCreateTagBuilder(ItemTags.STONE_CRAFTING_MATERIALS)
                 .add(ModBlocks.COBBLED_END_STONE.asItem());
@@ -117,6 +137,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AETHEREAL_PICKAXE)
                 .add(ModItems.AETHEREAL_AXE)
                 .add(ModItems.AETHEREAL_KNIFE)
+                .add(ModItems.AETHEREAL_DAGGER)
                 .add(ModItems.AETHEREAL_SHOVEL)
                 .add(ModItems.AETHEREAL_HOE);
 

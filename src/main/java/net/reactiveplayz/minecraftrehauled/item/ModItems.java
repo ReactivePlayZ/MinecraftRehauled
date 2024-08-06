@@ -37,6 +37,20 @@ public class ModItems {
             new SwordItem(ToolMaterials.NETHERITE, 6, -3.3f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_KNIFE = registerItem("aethereal_knife",
             new SwordItem(ModToolMaterial.AETHEREAL, 6, -3.4f, new FabricItemSettings().fireproof()));
+    public static final Item WOODEN_DAGGER = registerItem("wooden_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, -2, new FabricItemSettings()));
+    public static final Item STONE_DAGGER = registerItem("stone_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, -2, new FabricItemSettings()));
+    public static final Item IRON_DAGGER = registerItem("iron_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, -1, new FabricItemSettings()));
+    public static final Item GOLDEN_DAGGER = registerItem("golden_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, -2, new FabricItemSettings()));
+    public static final Item DIAMOND_DAGGER = registerItem("diamond_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, 0, new FabricItemSettings()));
+    public static final Item NETHERITE_DAGGER = registerItem("netherite_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, 0, new FabricItemSettings()));
+    public static final Item AETHEREAL_DAGGER = registerItem("aethereal_dagger",
+            new SwordItem(ToolMaterials.WOOD, 2, 0, new FabricItemSettings()));
     public static final Item AETHEREAL_SWORD = registerItem("aethereal_sword",
             new SwordItem(ModToolMaterial.AETHEREAL, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_PICKAXE = registerItem("aethereal_pickaxe",

@@ -46,6 +46,14 @@
   "item.minecraft_rehauled.tomato": "Tomato",
   "item.minecraft_rehauled.wooden_knife": "Wooden Knife",
 
+  "item.minecraft_rehauled.wooden_dagger": "Wooden Dagger",
+  "item.minecraft_rehauled.stone_dagger": "Stone Dagger",
+  "item.minecraft_rehauled.iron_dagger": "Iron Dagger",
+  "item.minecraft_rehauled.golden_dagger": "Golden Dagger",
+  "item.minecraft_rehauled.diamond_dagger": "Diamond Dagger",
+  "item.minecraft_rehauled.netherite_dagger": "Netherite Dagger",
+  "item.minecraft_rehauled.aethereal_dagger": "Aethereal Dagger",
+
   "itemgroup.mcr_tests": "Rehauled Tests",
   "itemgroup.rehauled_blocks": "Rehauled Blocks",
   "itemgroup.rehauled_items": "Rehauled Items",
