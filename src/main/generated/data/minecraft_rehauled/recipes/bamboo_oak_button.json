@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "minecraft_rehauled:bamboo_oak_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft_rehauled:bamboo_oak_button"
+  }
+}

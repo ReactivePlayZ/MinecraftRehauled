@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "end",
+  "ingredient": {
+    "item": "minecraft:end_stone"
+  },
+  "result": "minecraft_rehauled:cobbled_end_stone"
+}

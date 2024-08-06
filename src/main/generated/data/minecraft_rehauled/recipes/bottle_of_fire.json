@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+    "F": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "pattern": [
+    "F",
+    "B"
+  ],
+  "result": {
+    "item": "minecraft_rehauled:bottle_of_fire"
+  }
+}

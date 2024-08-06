@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft_rehauled:item/bucket_of_impure_residue"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft_rehauled:wooden_knife",
+    "minecraft_rehauled:stone_knife",
+    "minecraft_rehauled:iron_knife",
+    "minecraft_rehauled:golden_knife",
+    "minecraft_rehauled:diamond_knife",
+    "minecraft_rehauled:netherite_knife",
+    "minecraft_rehauled:aethereal_knife",
+    "minecraft_rehauled:aethereal_sword",
+    "minecraft_rehauled:aethereal_pickaxe",
+    "minecraft_rehauled:aethereal_axe",
+    "minecraft_rehauled:aethereal_shovel",
+    "minecraft_rehauled:aethereal_hoe"
+  ]
+}

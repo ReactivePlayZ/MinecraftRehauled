@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft_rehauled:advanced_crafting_table",
+    "minecraft_rehauled:enderite_residue",
+    "minecraft_rehauled:enderite_block",
+    "minecraft_rehauled:cobbled_end_stone"
+  ]
+}

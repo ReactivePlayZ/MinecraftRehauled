@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "enderite",
+  "ingredient": {
+    "item": "minecraft_rehauled:impure_enderite_scrap"
+  },
+  "result": "minecraft_rehauled:impure_enderite_scrap"
+}

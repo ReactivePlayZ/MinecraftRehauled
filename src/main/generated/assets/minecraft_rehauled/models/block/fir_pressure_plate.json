@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "minecraft_rehauled:block/fir_planks"
+  }
+}

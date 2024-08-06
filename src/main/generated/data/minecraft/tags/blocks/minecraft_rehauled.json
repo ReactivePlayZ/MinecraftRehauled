@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft_rehauled:enderite_residue",
+    "#minecraft:gold_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:coal_ores",
+    "minecraft_rehauled:bamboo_oak_planks",
+    "minecraft_rehauled:bamboo_oak_stairs",
+    "minecraft_rehauled:bamboo_oak_slab",
+    "minecraft_rehauled:bamboo_oak_pressure_plate",
+    "minecraft_rehauled:bamboo_oak_button",
+    "minecraft_rehauled:bamboo_oak_fence",
+    "minecraft_rehauled:bamboo_oak_fence_gate",
+    "minecraft_rehauled:bamboo_oak_door",
+    "minecraft_rehauled:bamboo_oak_trapdoor",
+    "minecraft_rehauled:fir_planks",
+    "minecraft_rehauled:fir_stairs",
+    "minecraft_rehauled:fir_slab",
+    "minecraft_rehauled:fir_pressure_plate",
+    "minecraft_rehauled:fir_button",
+    "minecraft_rehauled:fir_fence",
+    "minecraft_rehauled:fir_fence_gate",
+    "minecraft_rehauled:fir_door",
+    "minecraft_rehauled:fir_trapdoor"
+  ]
+}
