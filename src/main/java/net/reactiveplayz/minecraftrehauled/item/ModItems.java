@@ -34,19 +34,19 @@ public class ModItems {
     public static final Item DIAMOND_KNIFE = registerItem("diamond_knife",
             new SwordItem(ToolMaterials.DIAMOND, 6, -3.2f, new FabricItemSettings()));
     public static final Item NETHERITE_KNIFE = registerItem("netherite_knife",
-            new SwordItem(ToolMaterials.NETHERITE, 6, -3.3f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.NETHERITE, 6, -3.3f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_KNIFE = registerItem("aethereal_knife",
-            new SwordItem(ModToolMaterial.AETHEREAL, 6, -3.4f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.AETHEREAL, 6, -3.4f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_SWORD = registerItem("aethereal_sword",
-            new SwordItem(ModToolMaterial.AETHEREAL, 3, -2.4f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.AETHEREAL, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_PICKAXE = registerItem("aethereal_pickaxe",
-            new PickaxeItem(ModToolMaterial.AETHEREAL, 1, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.AETHEREAL, 1, -2.8f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_AXE = registerItem("aethereal_axe",
-            new AxeItem(ModToolMaterial.AETHEREAL, 5, -3, new  FabricItemSettings()));
+            new AxeItem(ModToolMaterial.AETHEREAL, 5, -3, new  FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_SHOVEL = registerItem("aethereal_shovel",
-            new ShovelItem(ModToolMaterial.AETHEREAL, 1.5f, -3, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.AETHEREAL, 1.5f, -3, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_HOE = registerItem("aethereal_hoe",
-            new HoeItem(ModToolMaterial.AETHEREAL, -5, 0f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.AETHEREAL, -5, 0f, new FabricItemSettings().fireproof()));
     private static void addItemsToWeaponsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(KATANA);
     }
