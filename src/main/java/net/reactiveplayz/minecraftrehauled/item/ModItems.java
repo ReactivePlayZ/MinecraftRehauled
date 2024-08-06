@@ -4,8 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -23,7 +22,31 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(
             new FabricItemSettings().maxDamage(64)));
-
+    public static final Item TEST0 = registerItem("test0", new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item WOODEN_KNIFE = registerItem("wooden_knife",
+            new SwordItem(ToolMaterials.WOOD, 7, -3.2f, new FabricItemSettings()));
+    public static final Item STONE_KNIFE = registerItem("stone_knife",
+            new SwordItem(ToolMaterials.STONE, 7, -3.2f, new FabricItemSettings()));
+    public static final Item IRON_KNIFE = registerItem("iron_knife",
+            new SwordItem(ToolMaterials.IRON, 7, -3.2f, new FabricItemSettings()));
+    public static final Item GOLDEN_KNIFE = registerItem("golden_knife",
+            new SwordItem(ToolMaterials.GOLD, 7, -3.1f, new FabricItemSettings()));
+    public static final Item DIAMOND_KNIFE = registerItem("diamond_knife",
+            new SwordItem(ToolMaterials.DIAMOND, 6, -3.2f, new FabricItemSettings()));
+    public static final Item NETHERITE_KNIFE = registerItem("netherite_knife",
+            new SwordItem(ToolMaterials.NETHERITE, 6, -3.3f, new FabricItemSettings()));
+    public static final Item AETHEREAL_KNIFE = registerItem("aethereal_knife",
+            new SwordItem(ModToolMaterial.AETHEREAL, 6, -3.4f, new FabricItemSettings()));
+    public static final Item AETHEREAL_SWORD = registerItem("aethereal_sword",
+            new SwordItem(ModToolMaterial.AETHEREAL, 3, -2.4f, new FabricItemSettings()));
+    public static final Item AETHEREAL_PICKAXE = registerItem("aethereal_pickaxe",
+            new PickaxeItem(ModToolMaterial.AETHEREAL, 1, -2.8f, new FabricItemSettings()));
+    public static final Item AETHEREAL_AXE = registerItem("aethereal_axe",
+            new AxeItem(ModToolMaterial.AETHEREAL, 5, -3, new  FabricItemSettings()));
+    public static final Item AETHEREAL_SHOVEL = registerItem("aethereal_shovel",
+            new ShovelItem(ModToolMaterial.AETHEREAL, 1.5f, -3, new FabricItemSettings()));
+    public static final Item AETHEREAL_HOE = registerItem("aethereal_hoe",
+            new HoeItem(ModToolMaterial.AETHEREAL, -5, 0f, new FabricItemSettings()));
     private static void addItemsToWeaponsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(KATANA);
     }

@@ -52,6 +52,27 @@ public class ModBlocks {
     public static final Block BAMBOO_OAK_TRAPDOOR = registerBlock("bamboo_oak_trapdoor",
             new TrapdoorBlock( BlockSetType.BAMBOO, FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR).mapColor(MapColor.PALE_GREEN)));
 
+    public static final Block FIR_PLANKS = registerBlock("fir_planks",
+            new Block( FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE) ));
+    public static final Block FIR_STAIRS = registerBlock("fir_stairs",
+            new StairsBlock(ModBlocks.BAMBOO_OAK_PLANKS.getDefaultState(),
+                    FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE)));
+    public static final Block FIR_SLAB = registerBlock("fir_slab",
+            new SlabBlock( FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE)));
+    public static final Block FIR_BUTTON = registerBlock("fir_button",
+            new ButtonBlock( BlockSetType.OAK, 10,
+                    FabricBlockSettings.copyOf(Blocks.OAK_BUTTON).mapColor(MapColor.WHITE).collidable(false) ));
+    public static final Block FIR_PRESSURE_PLATE = registerBlock("fir_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE).mapColor(MapColor.WHITE)));
+    public static final Block FIR_FENCE = registerBlock("fir_fence",
+            new FenceBlock( FabricBlockSettings.copyOf(Blocks.OAK_FENCE).mapColor(MapColor.WHITE)));
+    public static final Block FIR_FENCE_GATE = registerBlock("fir_fence_gate",
+            new FenceGateBlock( WoodType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE).mapColor(MapColor.WHITE)) );
+    public static final Block FIR_DOOR = registerBlock("fir_door",
+            new DoorBlock( BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_DOOR).mapColor(MapColor.WHITE)));
+    public static final Block FIR_TRAPDOOR = registerBlock("fir_trapdoor",
+            new TrapdoorBlock( BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).mapColor(MapColor.WHITE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(MinecraftRehauled.MOD_ID, name), block);

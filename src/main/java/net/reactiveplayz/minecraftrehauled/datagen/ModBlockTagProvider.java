@@ -48,6 +48,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BAMBOO_OAK_FENCE_GATE)
                 .add(ModBlocks.BAMBOO_OAK_DOOR)
                 .add(ModBlocks.BAMBOO_OAK_TRAPDOOR)
+                .add(ModBlocks.FIR_PLANKS)
+                .add(ModBlocks.FIR_STAIRS)
+                .add(ModBlocks.FIR_SLAB)
+                .add(ModBlocks.FIR_PRESSURE_PLATE)
+                .add(ModBlocks.FIR_BUTTON)
+                .add(ModBlocks.FIR_FENCE)
+                .add(ModBlocks.FIR_FENCE_GATE)
+                .add(ModBlocks.FIR_DOOR)
+                .add(ModBlocks.FIR_TRAPDOOR)
                 .add(ModBlocks.SOUND_BLOCK);
 
 
@@ -61,9 +70,34 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ENDERITE_RESIDUE);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
-                .add(ModBlocks.BAMBOO_OAK_FENCE);
+                .add(ModBlocks.BAMBOO_OAK_FENCE)
+                .add(ModBlocks.FIR_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
-                .add(ModBlocks.BAMBOO_OAK_FENCE_GATE);
+                .add(ModBlocks.BAMBOO_OAK_FENCE_GATE)
+                .add(ModBlocks.FIR_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.BAMBOO_OAK_BLOCKS)
+                .add(ModBlocks.BAMBOO_OAK_PLANKS)
+                .add(ModBlocks.BAMBOO_OAK_STAIRS)
+                .add(ModBlocks.BAMBOO_OAK_SLAB)
+                .add(ModBlocks.BAMBOO_OAK_PRESSURE_PLATE)
+                .add(ModBlocks.BAMBOO_OAK_BUTTON)
+                .add(ModBlocks.BAMBOO_OAK_FENCE)
+                .add(ModBlocks.BAMBOO_OAK_FENCE_GATE)
+                .add(ModBlocks.BAMBOO_OAK_DOOR)
+                .add(ModBlocks.BAMBOO_OAK_TRAPDOOR);
+
+        getOrCreateTagBuilder(ModTags.Blocks.FIR_BLOCKS)
+                .add(ModBlocks.FIR_PLANKS)
+                .add(ModBlocks.FIR_STAIRS)
+                .add(ModBlocks.FIR_SLAB)
+                .add(ModBlocks.FIR_PRESSURE_PLATE)
+                .add(ModBlocks.FIR_BUTTON)
+                .add(ModBlocks.FIR_FENCE)
+                .add(ModBlocks.FIR_FENCE_GATE)
+                .add(ModBlocks.FIR_DOOR)
+                .add(ModBlocks.FIR_TRAPDOOR);
+
 
     }
 }

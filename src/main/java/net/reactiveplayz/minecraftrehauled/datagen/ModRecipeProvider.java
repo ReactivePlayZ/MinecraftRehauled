@@ -9,6 +9,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.reactiveplayz.minecraftrehauled.block.ModBlocks;
 import net.reactiveplayz.minecraftrehauled.item.ModItems;
@@ -39,6 +40,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAMBOO_OAK_SLAB, ModBlocks.BAMBOO_OAK_PLANKS);
         offerPressurePlateRecipe(exporter, ModBlocks.BAMBOO_OAK_PRESSURE_PLATE, ModBlocks.BAMBOO_OAK_PLANKS);
 
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIR_SLAB, ModBlocks.FIR_PLANKS);
+        offerPressurePlateRecipe(exporter, ModBlocks.FIR_PRESSURE_PLATE, ModBlocks.FIR_PLANKS);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.ENDERITE_INGOT, 1)
                         .input(ModItems.ENDERITE_SCRAP)
                         .input(ModItems.ENDERITE_SCRAP)
@@ -48,6 +52,58 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(Items.NETHERITE_SCRAP)
                         .input(Items.NETHERITE_SCRAP)
                         .input(Items.NETHERITE_SCRAP);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.WOODEN_KNIFE, 1)
+                .pattern("MM")
+                .pattern("MM")
+                .pattern(" S")
+                .input('M', ItemTags.PLANKS)
+                .input('S', Items.STICK)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WOODEN_KNIFE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_KNIFE, 1)
+                .pattern("MM")
+                .pattern("MM")
+                .pattern(" S")
+                .input('M', ItemTags.STONE_TOOL_MATERIALS)
+                .input('S', Items.STICK)
+                .criterion("has_cobblestone", conditionsFromTag(ItemTags.STONE_TOOL_MATERIALS))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_KNIFE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.IRON_KNIFE, 1)
+                .pattern("MM")
+                .pattern("MM")
+                .pattern(" S")
+                .input('M', Items.IRON_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRON_KNIFE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GOLDEN_KNIFE, 1)
+                .pattern("MM")
+                .pattern("MM")
+                .pattern(" S")
+                .input('M', Items.GOLD_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.GOLDEN_KNIFE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.DIAMOND_KNIFE, 1)
+                .pattern("MM")
+                .pattern("MM")
+                .pattern(" S")
+                .input('M', Items.DIAMOND)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DIAMOND_KNIFE)));
+
+        offerNetheriteUpgradeRecipe(exporter, ModItems.DIAMOND_KNIFE, RecipeCategory.COMBAT, ModItems.NETHERITE_KNIFE);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ADVANCED_CRAFTING_TABLE, 1)
                 .pattern("GTG")
@@ -105,6 +161,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createFenceGateRecipe(ModBlocks.BAMBOO_OAK_FENCE_GATE, Ingredient.ofItems(ModBlocks.BAMBOO_OAK_PLANKS))
                 .criterion(hasItem(ModBlocks.BAMBOO_OAK_PLANKS), conditionsFromItem((ModBlocks.BAMBOO_OAK_PLANKS)))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BAMBOO_OAK_FENCE_GATE)));
+
+        createTransmutationRecipe(ModBlocks.FIR_BUTTON, Ingredient.ofItems(ModBlocks.FIR_PLANKS))
+                .criterion(hasItem(ModBlocks.FIR_PLANKS), conditionsFromItem((ModBlocks.FIR_PLANKS)))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_BUTTON)));
+
+        createStairsRecipe(ModBlocks.FIR_STAIRS, Ingredient.ofItems(ModBlocks.FIR_PLANKS))
+                .criterion(hasItem(ModBlocks.FIR_PLANKS), conditionsFromItem((ModBlocks.FIR_PLANKS)))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_STAIRS)));
+
+        createDoorRecipe(ModBlocks.FIR_DOOR, Ingredient.ofItems(ModBlocks.FIR_PLANKS))
+                .criterion(hasItem(ModBlocks.FIR_PLANKS), conditionsFromItem((ModBlocks.FIR_PLANKS)))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_DOOR)));
+
+        createTrapdoorRecipe(ModBlocks.FIR_TRAPDOOR, Ingredient.ofItems(ModBlocks.FIR_PLANKS))
+                .criterion(hasItem(ModBlocks.FIR_PLANKS), conditionsFromItem((ModBlocks.FIR_PLANKS)))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_TRAPDOOR)));
+
+        createFenceRecipe(ModBlocks.FIR_FENCE, Ingredient.ofItems(ModBlocks.FIR_PLANKS))
+                .criterion(hasItem(ModBlocks.FIR_PLANKS), conditionsFromItem((ModBlocks.FIR_PLANKS)))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_FENCE)));
+
+        createFenceGateRecipe(ModBlocks.FIR_FENCE_GATE, Ingredient.ofItems(ModBlocks.FIR_PLANKS))
+                .criterion(hasItem(ModBlocks.FIR_PLANKS), conditionsFromItem((ModBlocks.FIR_PLANKS)))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIR_FENCE_GATE)));
 
 
 

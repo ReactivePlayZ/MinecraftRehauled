@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft_rehauled:bamboo_oak_fence_gate"
+    "minecraft_rehauled:bamboo_oak_fence_gate",
+    "minecraft_rehauled:fir_fence_gate"
   ]
 }
