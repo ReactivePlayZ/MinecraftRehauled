@@ -1,4 +1,4 @@
-// 1.20.4	2024-08-06T15:21:44.4769783	Minecraft Rehauled/Recipes
+// 1.20.4	2024-08-06T20:59:48.556988	Minecraft Rehauled/Recipes
 e8713b934c2b1428afb0bcf3b609ac49f4fcf854 data\minecraft_rehauled\advancements\recipes\redstone\fir_button.json
 53e868da3ae5d9f98e1189cec5bf0299b76cd458 data\minecraft_rehauled\recipes\bamboo_oak_fence_gate.json
 b1e114298099056a648d0ce57501aa431eb4d2ed data\minecraft_rehauled\recipes\bamboo_oak_trapdoor.json
@@ -54,9 +54,9 @@ badb62c0a998fef177575935406c75c1c135465f data\minecraft_rehauled\recipes\bamboo_
 20fe36483c5212fce437986cfe315a1e9ea1897d data\minecraft_rehauled\recipes\bamboo_oak_pressure_plate.json
 088530a00b1661b8de647c6083ed2e7536017dd3 data\minecraft_rehauled\advancements\recipes\combat\diamond_knife.json
 98b7dd0976355d9c0c757b0bc6cdaf72985fbe70 data\minecraft_rehauled\advancements\recipes\combat\netherite_knife_smithing.json
+7c9c6909c0b5f04c366da73420fdac4d7de603db data\minecraft_rehauled\advancements\recipes\combat\wooden_knife.json
 7ad68b97a64b5c908a6528a9d98ff3f9f9f90f4c data\minecraft_rehauled\advancements\recipes\combat\stone_knife.json
 c509c59b0e3f4b2ccadbab65872aca10563f0d3a data\minecraft_rehauled\advancements\recipes\redstone\bamboo_oak_door.json
-7c9c6909c0b5f04c366da73420fdac4d7de603db data\minecraft_rehauled\advancements\recipes\combat\wooden_knife.json
 13cfdb2a3bac6479e7ba7d16995ef083e0fef098 data\minecraft_rehauled\recipes\fir_door.json
 018dc67593bb634669813927ace1aefdbb3e4eaf data\minecraft_rehauled\recipes\bamboo_oak_button.json
 33a89df305dff38c77cbfeda19999bc4bfbfb2fa data\minecraft_rehauled\advancements\recipes\combat\golden_knife.json
