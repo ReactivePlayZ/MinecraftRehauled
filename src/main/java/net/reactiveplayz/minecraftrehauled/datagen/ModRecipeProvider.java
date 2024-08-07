@@ -152,6 +152,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerNetheriteUpgradeRecipe(exporter, ModItems.DIAMOND_DAGGER, RecipeCategory.COMBAT, ModItems.NETHERITE_DAGGER);
 
+        //TODO: Add the crafting recipes for the katanas.
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ADVANCED_CRAFTING_TABLE, 1)
                 .pattern("GTG")
                 .pattern("CSC")
