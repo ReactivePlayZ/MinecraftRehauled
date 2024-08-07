@@ -12,7 +12,8 @@ import net.reactiveplayz.minecraftrehauled.MinecraftRehauled;
 import net.reactiveplayz.minecraftrehauled.item.custom.MetalDetectorItem;
 
 public class ModItems {
-    public static final Item KATANA = registerItem("katana", new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item KATANA = registerItem("katana",
+            new SwordItem(ToolMaterials.IRON, 9999, 9999, new FabricItemSettings()));
     public static final Item ENDERITE_INGOT = registerItem("enderite_ingot", new Item(new FabricItemSettings()));
     public static final Item IMPURE_ENDERITE_SCRAP = registerItem("impure_enderite_scrap", new Item(new FabricItemSettings()));
     public static final Item ENDERITE_SCRAP = registerItem("enderite_scrap", new Item(new FabricItemSettings()));

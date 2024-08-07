@@ -1,4 +1,4 @@
-// 1.20.4	2024-08-06T20:59:48.7809578	Minecraft Rehauled/Model Definitions
+// 1.20.4	2024-08-06T21:36:54.2780294	Minecraft Rehauled/Model Definitions
 95e9c1b57d47f36880a02e5ecd3d53f86df8e3bf assets\minecraft_rehauled\models\item\bamboo_oak_stairs.json
 5e98df0613d5ea29c25f04a6a82e36506ad14d5d assets\minecraft_rehauled\models\block\bamboo_oak_button_inventory.json
 1e83e313002b596a6a2a678a16a625226b316cb7 assets\minecraft_rehauled\models\block\fir_fence_gate_open.json
@@ -41,8 +41,8 @@ e241b3b123a238734926a4ba3added8be4f9e180 assets\minecraft_rehauled\models\block\
 aa4b206505268d1fd4266ba8a4109102494aafed assets\minecraft_rehauled\blockstates\bamboo_oak_door.json
 a1ec27cec8b5adc920f0ed1d3c082524aa007bb2 assets\minecraft_rehauled\models\item\fir_fence_gate.json
 ba7ee404774c9aca253870ef4d8b2e382daa4f86 assets\minecraft_rehauled\models\block\bamboo_oak_fence_gate.json
-d6f8c9aff4fe6f9e9ca1c207b16a3e42a9b79861 assets\minecraft_rehauled\models\block\fir_fence_gate_wall.json
 2ecaa7dbd6e5e98afc8563a42f8e4ec43d64ef5a assets\minecraft_rehauled\models\item\impure_enderite_scrap.json
+d6f8c9aff4fe6f9e9ca1c207b16a3e42a9b79861 assets\minecraft_rehauled\models\block\fir_fence_gate_wall.json
 d1af6af4662eef78138ddbdedf2e7f78618a33d1 assets\minecraft_rehauled\models\block\fir_button_inventory.json
 fbc2332390e33aede8df18f4734889377a81e804 assets\minecraft_rehauled\models\block\fir_door_top_left.json
 37d40212202729736478a47e7b0f2673914aacc1 assets\minecraft_rehauled\models\item\tomato.json

@@ -1,8 +1,8 @@
-// 1.20.4	2024-08-06T20:59:48.5364873	Minecraft Rehauled/Tags for minecraft:block
+// 1.20.4	2024-08-06T21:36:54.254095	Minecraft Rehauled/Tags for minecraft:block
 571e9475700326c9a96ccf068248040415b8d567 data\minecraft\tags\blocks\mineable\pickaxe.json
 4ae8bc78b45346a8298d9a5625d0a0d1dde13ac2 data\fabric\tags\blocks\needs_tool_level_4.json
 30f870565b239eba92f673310dbb7aad36062839 data\minecraft\tags\blocks\fences.json
-1df4c2f65ad3c43b7d4a0a02681b919edd1c8f49 data\minecraft\tags\blocks\mineable\axe.json
 8f0a77e133a90ab28d6828efaf6b896ffb9278f8 data\minecraft\tags\blocks\needs_diamond_tool.json
 a8b431a6b3903e870dee462c1ae57ddfdcc60a83 data\minecraft\tags\blocks\fence_gates.json
+1df4c2f65ad3c43b7d4a0a02681b919edd1c8f49 data\minecraft\tags\blocks\mineable\axe.json
 73f8d5d6c23920d636f5f3eca313c316aa6a52da data\minecraft\tags\blocks\minecraft_rehauled.json

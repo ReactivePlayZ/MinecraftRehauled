@@ -15,7 +15,6 @@ public class ModItemGroups {
             new Identifier(MinecraftRehauled.MOD_ID, "rehauled_items"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rehauled_items"))
                     .icon(() -> new ItemStack(ModItems.BOTTLE_OF_FIRE)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.KATANA);
                         entries.add(ModItems.IMPURE_ENDERITE_SCRAP);
                         entries.add(ModItems.ENDERITE_SCRAP);
                         entries.add(ModItems.ENDERITE_INGOT);
@@ -70,6 +69,7 @@ public class ModItemGroups {
             new Identifier(MinecraftRehauled.MOD_ID, "rehauled_weapons"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.rehauled_weapons"))
                     .icon(() -> new ItemStack(ModItems.KATANA)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.KATANA);
                         entries.add(ModItems.AETHEREAL_SWORD);
 
                         entries.add(ModItems.WOODEN_KNIFE);
@@ -90,7 +90,7 @@ public class ModItemGroups {
                     }).build());
 
                         public static final ItemGroup MCR_TESTS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MinecraftRehauled.MOD_ID, "mcr_tests"),
+            new Identifier(MinecraftRehauled.MOD_ID, "rehauled_tests"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mcr_tests"))
                     .icon(() -> new ItemStack(ModItems.TEST0)).entries(((displayContext, entries) -> {
                         entries.add(ModBlocks.SOUND_BLOCK);

@@ -105,6 +105,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerNetheriteUpgradeRecipe(exporter, ModItems.DIAMOND_KNIFE, RecipeCategory.COMBAT, ModItems.NETHERITE_KNIFE);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.WOODEN_DAGGER, 1)
+                .pattern("M")
+                .pattern("S")
+                .input('M', ItemTags.PLANKS)
+                .input('S', Items.STICK)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.WOODEN_DAGGER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STONE_DAGGER, 1)
+                .pattern("M")
+                .pattern("S")
+                .input('M', ItemTags.STONE_TOOL_MATERIALS)
+                .input('S', Items.STICK)
+                .criterion("has_cobblestone", conditionsFromTag(ItemTags.STONE_TOOL_MATERIALS))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STONE_DAGGER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.IRON_DAGGER, 1)
+                .pattern("M")
+                .pattern("S")
+                .input('M', Items.IRON_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IRON_DAGGER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GOLDEN_DAGGER, 1)
+                .pattern("M")
+                .pattern("S")
+                .input('M', Items.GOLD_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.GOLDEN_DAGGER)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.DIAMOND_DAGGER, 1)
+                .pattern("M")
+                .pattern("S")
+                .input('M', Items.DIAMOND)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DIAMOND_DAGGER)));
+
+        offerNetheriteUpgradeRecipe(exporter, ModItems.DIAMOND_DAGGER, RecipeCategory.COMBAT, ModItems.NETHERITE_DAGGER);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ADVANCED_CRAFTING_TABLE, 1)
                 .pattern("GTG")
                 .pattern("CSC")
