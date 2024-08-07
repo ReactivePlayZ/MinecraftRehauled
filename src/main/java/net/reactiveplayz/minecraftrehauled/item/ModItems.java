@@ -52,6 +52,20 @@ public class ModItems {
             new SwordItem(ToolMaterials.NETHERITE, 2, 0, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_DAGGER = registerItem("aethereal_dagger",
             new SwordItem(ModToolMaterial.AETHEREAL, 2, 0, new FabricItemSettings().fireproof()));
+    public static final Item WOODEN_KATANA = registerItem("wooden_katana",
+            new SwordItem(ToolMaterials.WOOD, 4, -2, new FabricItemSettings()));
+    public static final Item STONE_KATANA = registerItem("stone_katana",
+            new SwordItem(ToolMaterials.STONE, 4, -2, new FabricItemSettings()));
+    public static final Item IRON_KATANA = registerItem("iron_katana",
+            new SwordItem(ToolMaterials.IRON, 4, -1, new FabricItemSettings()));
+    public static final Item GOLDEN_KATANA = registerItem("golden_katana",
+            new SwordItem(ToolMaterials.GOLD, 4, -2, new FabricItemSettings()));
+    public static final Item DIAMOND_KATANA = registerItem("diamond_katana",
+            new SwordItem(ToolMaterials.DIAMOND, 4, -0.5f, new FabricItemSettings()));
+    public static final Item NETHERITE_KATANA = registerItem("netherite_katana",
+            new SwordItem(ToolMaterials.NETHERITE, 4, -0.5f, new FabricItemSettings().fireproof()));
+    public static final Item AETHEREAL_KATANA = registerItem("aethereal_katana",
+            new SwordItem(ModToolMaterial.AETHEREAL, 4, -0.5f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_SWORD = registerItem("aethereal_sword",
             new SwordItem(ModToolMaterial.AETHEREAL, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_PICKAXE = registerItem("aethereal_pickaxe",

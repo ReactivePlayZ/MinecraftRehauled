@@ -68,6 +68,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NETHERITE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AETHEREAL_DAGGER, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.WOODEN_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STONE_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRON_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AETHEREAL_KATANA, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.ENDERITE_SCRAP, Models.GENERATED);
         itemModelGenerator.register(ModItems.IMPURE_ENDERITE_SCRAP, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);

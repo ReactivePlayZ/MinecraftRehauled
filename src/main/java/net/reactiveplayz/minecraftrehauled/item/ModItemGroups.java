@@ -33,6 +33,20 @@ public class ModItemGroups {
                         entries.add(ModItems.DIAMOND_KNIFE);
                         entries.add(ModItems.NETHERITE_KNIFE);
                         entries.add(ModItems.AETHEREAL_KNIFE);
+                        entries.add(ModItems.WOODEN_DAGGER);
+                        entries.add(ModItems.STONE_DAGGER);
+                        entries.add(ModItems.IRON_DAGGER);
+                        entries.add(ModItems.GOLDEN_DAGGER);
+                        entries.add(ModItems.DIAMOND_DAGGER);
+                        entries.add(ModItems.NETHERITE_DAGGER);
+                        entries.add(ModItems.AETHEREAL_DAGGER);
+                        entries.add(ModItems.WOODEN_KATANA);
+                        entries.add(ModItems.STONE_KATANA);
+                        entries.add(ModItems.IRON_KATANA);
+                        entries.add(ModItems.GOLDEN_KATANA);
+                        entries.add(ModItems.DIAMOND_KATANA);
+                        entries.add(ModItems.NETHERITE_KATANA);
+                        entries.add(ModItems.AETHEREAL_KATANA);
                     }).build());
 
     public static final ItemGroup REHAULED_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -87,6 +101,14 @@ public class ModItemGroups {
                         entries.add(ModItems.DIAMOND_DAGGER);
                         entries.add(ModItems.NETHERITE_DAGGER);
                         entries.add(ModItems.AETHEREAL_DAGGER);
+
+                        entries.add(ModItems.WOODEN_KATANA);
+                        entries.add(ModItems.STONE_KATANA);
+                        entries.add(ModItems.IRON_KATANA);
+                        entries.add(ModItems.GOLDEN_KATANA);
+                        entries.add(ModItems.DIAMOND_KATANA);
+                        entries.add(ModItems.NETHERITE_KATANA);
+                        entries.add(ModItems.AETHEREAL_KATANA);
                     }).build());
 
                         public static final ItemGroup MCR_TESTS = Registry.register(Registries.ITEM_GROUP,

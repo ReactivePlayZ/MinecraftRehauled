@@ -35,6 +35,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NETHERITE_DAGGER)
                 .add(ModItems.AETHEREAL_DAGGER)
 
+                .add(ModItems.WOODEN_KATANA)
+                .add(ModItems.STONE_KATANA)
+                .add(ModItems.IRON_KATANA)
+                .add(ModItems.GOLDEN_KATANA)
+                .add(ModItems.DIAMOND_KATANA)
+                .add(ModItems.NETHERITE_KATANA)
+                .add(ModItems.AETHEREAL_KATANA)
+
                 .add(ModItems.AETHEREAL_SWORD)
         ;
 
@@ -54,6 +62,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.DIAMOND_DAGGER)
                 .add(ModItems.NETHERITE_DAGGER)
                 .add(ModItems.AETHEREAL_DAGGER)
+
+                .add(ModItems.WOODEN_KATANA)
+                .add(ModItems.STONE_KATANA)
+                .add(ModItems.IRON_KATANA)
+                .add(ModItems.GOLDEN_KATANA)
+                .add(ModItems.DIAMOND_KATANA)
+                .add(ModItems.NETHERITE_KATANA)
+                .add(ModItems.AETHEREAL_KATANA)
 
                 .add(ModItems.AETHEREAL_SWORD)
                 .add(ModItems.AETHEREAL_PICKAXE)
@@ -133,6 +149,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
 
         getOrCreateTagBuilder(ModTags.Items.AETHEREAL_ITEMS)
+                .add(ModItems.AETHEREAL_KATANA)
                 .add(ModItems.AETHEREAL_SWORD)
                 .add(ModItems.AETHEREAL_PICKAXE)
                 .add(ModItems.AETHEREAL_AXE)
