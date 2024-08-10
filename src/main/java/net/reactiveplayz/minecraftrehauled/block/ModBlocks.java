@@ -60,7 +60,7 @@ public class ModBlocks {
     public static final Block FIR_SLAB = registerBlock("fir_slab",
             new SlabBlock( FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.WHITE)));
     public static final Block FIR_BUTTON = registerBlock("fir_button",
-            new ButtonBlock( BlockSetType.OAK, 10,
+            new ButtonBlock( BlockSetType.OAK, 20,
                     FabricBlockSettings.copyOf(Blocks.OAK_BUTTON).mapColor(MapColor.WHITE).collidable(false) ));
     public static final Block FIR_PRESSURE_PLATE = registerBlock("fir_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE).mapColor(MapColor.WHITE)));
