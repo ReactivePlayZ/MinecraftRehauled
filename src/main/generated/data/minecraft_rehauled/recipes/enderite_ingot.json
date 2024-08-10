@@ -1,13 +1,33 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft_rehauled:enderite_block"
+      "item": "minecraft_rehauled:enderite_scrap"
+    },
+    {
+      "item": "minecraft_rehauled:enderite_scrap"
+    },
+    {
+      "item": "minecraft_rehauled:enderite_scrap"
+    },
+    {
+      "item": "minecraft_rehauled:enderite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
     }
   ],
   "result": {
-    "count": 9,
     "item": "minecraft_rehauled:enderite_ingot"
   }
 }

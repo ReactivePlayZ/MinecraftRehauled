@@ -34,8 +34,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSmelting(exporter, END_STONE, RecipeCategory.MISC, ModBlocks.COBBLED_END_STONE.asItem(),
                 2.0f, 200, "end");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ENDERITE_INGOT, RecipeCategory.DECORATIONS,
-                ModBlocks.ENDERITE_BLOCK);
+        offerReversibleCompactingRecipesWithReverseRecipeGroup(exporter, RecipeCategory.MISC, ModItems.ENDERITE_INGOT,
+                                                                         RecipeCategory.BUILDING_BLOCKS, ModBlocks.ENDERITE_BLOCK,
+                "enderite_ingot_from_enderite_block", "enderite_ingot");
 
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAMBOO_OAK_SLAB, ModBlocks.BAMBOO_OAK_PLANKS);
         offerPressurePlateRecipe(exporter, ModBlocks.BAMBOO_OAK_PRESSURE_PLATE, ModBlocks.BAMBOO_OAK_PLANKS);
@@ -45,19 +46,38 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_SWORD, 1)
                 .input(Items.WOODEN_SWORD)
-                .input(Items.CHERRY_PLANKS);
+                .input(Items.CHERRY_PLANKS)
+                .criterion(hasItem(Items.WOODEN_SWORD), conditionsFromItem(Items.WOODEN_SWORD))
+                .criterion(hasItem(Items.CHERRY_PLANKS), conditionsFromItem(Items.CHERRY_PLANKS))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_PICKAXE, 1)
                 .input(Items.WOODEN_PICKAXE)
-                .input(Items.CHERRY_PLANKS);
+                .input(Items.CHERRY_PLANKS)
+                .criterion(hasItem(Items.WOODEN_PICKAXE), conditionsFromItem(Items.WOODEN_PICKAXE))
+                .criterion(hasItem(Items.CHERRY_PLANKS), conditionsFromItem(Items.CHERRY_PLANKS))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_AXE, 1)
                 .input(Items.WOODEN_AXE)
-                .input(Items.CHERRY_PLANKS);
+                .input(Items.CHERRY_PLANKS)
+                .criterion(hasItem(Items.WOODEN_AXE), conditionsFromItem(Items.WOODEN_AXE))
+                .criterion(hasItem(Items.CHERRY_PLANKS), conditionsFromItem(Items.CHERRY_PLANKS))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_SHOVEL, 1)
                 .input(Items.WOODEN_SHOVEL)
-                .input(Items.CHERRY_PLANKS);
+                .input(Items.CHERRY_PLANKS)
+                .criterion(hasItem(Items.WOODEN_SHOVEL), conditionsFromItem(Items.WOODEN_SHOVEL))
+                .criterion(hasItem(Items.CHERRY_PLANKS), conditionsFromItem(Items.CHERRY_PLANKS))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_HOE, 1)
                 .input(Items.WOODEN_HOE)
-                .input(Items.CHERRY_PLANKS);
+                .input(Items.CHERRY_PLANKS)
+                .criterion(hasItem(Items.WOODEN_HOE), conditionsFromItem(Items.WOODEN_HOE))
+                .criterion(hasItem(Items.CHERRY_PLANKS), conditionsFromItem(Items.CHERRY_PLANKS))
+                .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.ENDERITE_INGOT, 1)
                         .input(ModItems.ENDERITE_SCRAP)
@@ -67,7 +87,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(Items.NETHERITE_SCRAP)
                         .input(Items.NETHERITE_SCRAP)
                         .input(Items.NETHERITE_SCRAP)
-                        .input(Items.NETHERITE_SCRAP);
+                        .input(Items.NETHERITE_SCRAP)
+                    .criterion(hasItem(ModItems.ENDERITE_SCRAP), conditionsFromItem(ModItems.ENDERITE_SCRAP))
+                    .criterion(hasItem(Items.NETHERITE_SCRAP), conditionsFromItem(Items.NETHERITE_SCRAP))
+                    .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.WOODEN_KNIFE, 1)
                 .pattern("MM")
