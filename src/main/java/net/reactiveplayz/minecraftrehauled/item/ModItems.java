@@ -76,6 +76,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.AETHEREAL, 1.5f, -3, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_HOE = registerItem("aethereal_hoe",
             new HoeItem(ModToolMaterial.AETHEREAL, -5, 0f, new FabricItemSettings().fireproof()));
+    public static final Item CHERRY_SWORD = registerItem("cherry_sword",
+            new SwordItem(ToolMaterials.WOOD, 3, -2.4f, new FabricItemSettings().fireproof()));
+    public static final Item CHERRY_PICKAXE = registerItem("cherry_pickaxe",
+            new PickaxeItem(ToolMaterials.WOOD, 1, -2.8f, new FabricItemSettings().fireproof()));
+    public static final Item CHERRY_AXE = registerItem("cherry_axe",
+            new AxeItem(ToolMaterials.WOOD, 6, -3.2f, new  FabricItemSettings().fireproof()));
+    public static final Item CHERRY_SHOVEL = registerItem("cherry_shovel",
+            new ShovelItem(ToolMaterials.WOOD, 1.5f, -3, new FabricItemSettings().fireproof()));
+    public static final Item CHERRY_HOE = registerItem("cherry_hoe",
+            new HoeItem(ToolMaterials.WOOD, 0, -3, new FabricItemSettings().fireproof()));
     private static void addItemsToWeaponsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(KATANA);
     }

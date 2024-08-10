@@ -119,6 +119,11 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TEST0);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.CHERRY_SWORD);
+                        entries.add(ModItems.CHERRY_PICKAXE);
+                        entries.add(ModItems.CHERRY_AXE);
+                        entries.add(ModItems.CHERRY_SHOVEL);
+                        entries.add(ModItems.CHERRY_HOE);
                     })).build());
 
 

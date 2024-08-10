@@ -44,6 +44,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AETHEREAL_KATANA)
 
                 .add(ModItems.AETHEREAL_SWORD)
+                .add(ModItems.CHERRY_SWORD)
         ;
 
         getOrCreateTagBuilder(ItemTags.TOOLS)
@@ -76,6 +77,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AETHEREAL_AXE)
                 .add(ModItems.AETHEREAL_SHOVEL)
                 .add(ModItems.AETHEREAL_HOE)
+
+                .add(ModItems.CHERRY_SWORD)
+                .add(ModItems.CHERRY_PICKAXE)
+                .add(ModItems.CHERRY_AXE)
+                .add(ModItems.CHERRY_SHOVEL)
+                .add(ModItems.CHERRY_HOE)
         ;
 
         getOrCreateTagBuilder(ItemTags.STONE_CRAFTING_MATERIALS)
