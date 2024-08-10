@@ -43,19 +43,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIR_SLAB, ModBlocks.FIR_PLANKS);
         offerPressurePlateRecipe(exporter, ModBlocks.FIR_PRESSURE_PLATE, ModBlocks.FIR_PLANKS);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.TOOLS, () -> ModItems.CHERRY_SWORD, 1)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_SWORD, 1)
                 .input(Items.WOODEN_SWORD)
                 .input(Items.CHERRY_PLANKS);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.TOOLS, () -> ModItems.CHERRY_PICKAXE, 1)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_PICKAXE, 1)
                 .input(Items.WOODEN_PICKAXE)
                 .input(Items.CHERRY_PLANKS);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.TOOLS, () -> ModItems.CHERRY_AXE, 1)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_AXE, 1)
                 .input(Items.WOODEN_AXE)
                 .input(Items.CHERRY_PLANKS);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.TOOLS, () -> ModItems.CHERRY_SHOVEL, 1)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_SHOVEL, 1)
                 .input(Items.WOODEN_SHOVEL)
                 .input(Items.CHERRY_PLANKS);
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.TOOLS, () -> ModItems.CHERRY_HOE, 1)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, () -> ModItems.CHERRY_HOE, 1)
                 .input(Items.WOODEN_HOE)
                 .input(Items.CHERRY_PLANKS);
 
