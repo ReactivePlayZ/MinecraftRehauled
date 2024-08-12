@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft_rehauled:aethereal_helmet",
+    "minecraft_rehauled:aethereal_chestplate",
+    "minecraft_rehauled:aethereal_leggings",
+    "minecraft_rehauled:aethereal_boots"
+  ]
+}
