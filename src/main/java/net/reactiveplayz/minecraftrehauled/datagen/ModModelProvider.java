@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.reactiveplayz.minecraftrehauled.block.ModBlocks;
 import net.reactiveplayz.minecraftrehauled.item.ModItems;
 
@@ -93,5 +94,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_BOOTS));
+
     }
 }

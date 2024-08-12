@@ -64,6 +64,10 @@
   "item.minecraft_rehauled.wooden_dagger": "Wooden Dagger",
   "item.minecraft_rehauled.wooden_katana": "Wooden Katana",
   "item.minecraft_rehauled.wooden_knife": "Wooden Knife",
+  "item.minecraft_rehauled.aethereal_helmet": "Aethereal Helmet",
+  "item.minecraft_rehauled.aethereal_chestplate": "Aethereal Chestplate",
+  "item.minecraft_rehauled.aethereal_leggings": "Aethereal Leggings",
+  "item.minecraft_rehauled.aethereal_boots": "Aethereal Boots",
 
   "itemgroup.mcr_tests": "Rehauled Tests",
   "itemgroup.rehauled_blocks": "Rehauled Blocks",

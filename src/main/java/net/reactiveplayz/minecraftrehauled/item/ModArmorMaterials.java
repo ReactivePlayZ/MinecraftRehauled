@@ -2,13 +2,17 @@ package net.reactiveplayz.minecraftrehauled.item;
 
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.reactiveplayz.minecraftrehauled.MinecraftRehauled;
 
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
+    AETHEREAL("aethereal", 41, new int[] { 4, 7, 8, 4 }, 16,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0f, 0.1f, () -> Ingredient.ofItems(Items.BEDROCK))
     ;
     private final String name;
     private final int durabilityMultiplier;

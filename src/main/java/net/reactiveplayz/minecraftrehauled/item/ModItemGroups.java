@@ -26,6 +26,10 @@ public class ModItemGroups {
                         entries.add(ModItems.AETHEREAL_AXE);
                         entries.add(ModItems.AETHEREAL_SHOVEL);
                         entries.add(ModItems.AETHEREAL_HOE);
+                        entries.add(ModItems.AETHEREAL_HELMET);
+                        entries.add(ModItems.AETHEREAL_CHESTPLATE);
+                        entries.add(ModItems.AETHEREAL_LEGGINGS);
+                        entries.add(ModItems.AETHEREAL_BOOTS);
                         entries.add(ModItems.WOODEN_KNIFE);
                         entries.add(ModItems.STONE_KNIFE);
                         entries.add(ModItems.IRON_KNIFE);

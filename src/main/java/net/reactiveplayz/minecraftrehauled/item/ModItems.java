@@ -76,6 +76,14 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.AETHEREAL, 1.5f, -3, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_HOE = registerItem("aethereal_hoe",
             new HoeItem(ModToolMaterial.AETHEREAL, -5, 0f, new FabricItemSettings().fireproof()));
+    public static final Item AETHEREAL_HELMET = registerItem("aethereal_helmet",
+            new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+    public static final Item AETHEREAL_CHESTPLATE = registerItem("aethereal_chestplate",
+            new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+    public static final Item AETHEREAL_LEGGINGS = registerItem("aethereal_leggings",
+            new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+    public static final Item AETHEREAL_BOOTS = registerItem("aethereal_boots",
+            new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
     public static final Item CHERRY_SWORD = registerItem("cherry_sword",
             new SwordItem(ToolMaterials.WOOD, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item CHERRY_PICKAXE = registerItem("cherry_pickaxe",

@@ -18,6 +18,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.AETHEREAL_HELMET, ModItems.AETHEREAL_CHESTPLATE,
+                    ModItems.AETHEREAL_LEGGINGS, ModItems.AETHEREAL_BOOTS);
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.WOODEN_KNIFE)
                 .add(ModItems.STONE_KNIFE)
@@ -163,7 +167,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AETHEREAL_KNIFE)
                 .add(ModItems.AETHEREAL_DAGGER)
                 .add(ModItems.AETHEREAL_SHOVEL)
-                .add(ModItems.AETHEREAL_HOE);
+                .add(ModItems.AETHEREAL_HOE)
+                .add(ModItems.AETHEREAL_HELMET, ModItems.AETHEREAL_CHESTPLATE,
+                    ModItems.AETHEREAL_LEGGINGS, ModItems.AETHEREAL_BOOTS);
 
         getOrCreateTagBuilder(ModTags.Items.BAMBOO_OAK_BLOCKS)
                 .add(ModBlocks.BAMBOO_OAK_PLANKS.asItem())
