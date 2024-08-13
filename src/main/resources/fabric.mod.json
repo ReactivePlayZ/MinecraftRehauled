@@ -7,8 +7,12 @@
 	"authors": [
 		"ReactivePlayZ"
 	],
+	"contributors": [
+		"SOKVN",
+		"EnxVozile"
+	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/minecraft_rehauled",
+		"homepage": "https://modrinth.com/mod/minecraftrehauled",
 		"sources": "https://github.com/ReactivePlayZ/MinecraftRehauled"
 	},
 	"custom": {
