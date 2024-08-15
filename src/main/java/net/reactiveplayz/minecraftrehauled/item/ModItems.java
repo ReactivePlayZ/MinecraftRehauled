@@ -37,7 +37,7 @@ public class ModItems {
     public static final Item NETHERITE_KNIFE = registerItem("netherite_knife",
             new SwordItem(ToolMaterials.NETHERITE, 6, -3.3f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_KNIFE = registerItem("aethereal_knife",
-            new SwordItem(ModToolMaterial.AETHEREAL, 6, -3.4f, new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.AETHEREAL, 6, -3.4f, new FabricItemSettings().fireproof()));
     public static final Item WOODEN_DAGGER = registerItem("wooden_dagger",
             new SwordItem(ToolMaterials.WOOD, 2, -2, new FabricItemSettings()));
     public static final Item STONE_DAGGER = registerItem("stone_dagger",
@@ -51,7 +51,7 @@ public class ModItems {
     public static final Item NETHERITE_DAGGER = registerItem("netherite_dagger",
             new SwordItem(ToolMaterials.NETHERITE, 2, 0, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_DAGGER = registerItem("aethereal_dagger",
-            new SwordItem(ModToolMaterial.AETHEREAL, 2, 0, new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.AETHEREAL, 2, 0, new FabricItemSettings().fireproof()));
     public static final Item WOODEN_KATANA = registerItem("wooden_katana",
             new SwordItem(ToolMaterials.WOOD, 4, -2, new FabricItemSettings()));
     public static final Item STONE_KATANA = registerItem("stone_katana",
@@ -65,17 +65,17 @@ public class ModItems {
     public static final Item NETHERITE_KATANA = registerItem("netherite_katana",
             new SwordItem(ToolMaterials.NETHERITE, 4, -0.5f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_KATANA = registerItem("aethereal_katana",
-            new SwordItem(ModToolMaterial.AETHEREAL, 4, -0.5f, new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.AETHEREAL, 4, -0.5f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_SWORD = registerItem("aethereal_sword",
-            new SwordItem(ModToolMaterial.AETHEREAL, 3, -2.4f, new FabricItemSettings().fireproof()));
+            new SwordItem(ModToolMaterials.AETHEREAL, 3, -2.4f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_PICKAXE = registerItem("aethereal_pickaxe",
-            new PickaxeItem(ModToolMaterial.AETHEREAL, 1, -2.8f, new FabricItemSettings().fireproof()));
+            new PickaxeItem(ModToolMaterials.AETHEREAL, 1, -2.8f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_AXE = registerItem("aethereal_axe",
-            new AxeItem(ModToolMaterial.AETHEREAL, 5, -3, new  FabricItemSettings().fireproof()));
+            new AxeItem(ModToolMaterials.AETHEREAL, 5, -3, new  FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_SHOVEL = registerItem("aethereal_shovel",
-            new ShovelItem(ModToolMaterial.AETHEREAL, 1.5f, -3, new FabricItemSettings().fireproof()));
+            new ShovelItem(ModToolMaterials.AETHEREAL, 1.5f, -3, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_HOE = registerItem("aethereal_hoe",
-            new HoeItem(ModToolMaterial.AETHEREAL, -5, 0f, new FabricItemSettings().fireproof()));
+            new HoeItem(ModToolMaterials.AETHEREAL, -5, 0f, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_HELMET = registerItem("aethereal_helmet",
             new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_CHESTPLATE = registerItem("aethereal_chestplate",
