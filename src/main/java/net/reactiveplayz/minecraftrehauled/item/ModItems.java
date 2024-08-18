@@ -30,6 +30,8 @@ public class ModItems {
             new SwordItem(ToolMaterials.STONE, 7, -3.2f, new FabricItemSettings()));
     public static final Item IRON_KNIFE = registerItem("iron_knife",
             new SwordItem(ToolMaterials.IRON, 7, -3.2f, new FabricItemSettings()));
+    public static final Item COPPER_KNIFE = registerItem("copper_knife",
+            new SwordItem(ModToolMaterials.COPPER, 7, -3.2f, new FabricItemSettings()));
     public static final Item GOLDEN_KNIFE = registerItem("golden_knife",
             new SwordItem(ToolMaterials.GOLD, 7, -3.1f, new FabricItemSettings()));
     public static final Item DIAMOND_KNIFE = registerItem("diamond_knife",
@@ -44,6 +46,8 @@ public class ModItems {
             new SwordItem(ToolMaterials.STONE, 2, -2, new FabricItemSettings()));
     public static final Item IRON_DAGGER = registerItem("iron_dagger",
             new SwordItem(ToolMaterials.IRON, 2, -1, new FabricItemSettings()));
+    public static final Item COPPER_DAGGER = registerItem("copper_dagger",
+            new SwordItem(ModToolMaterials.COPPER, 2, -1, new FabricItemSettings()));
     public static final Item GOLDEN_DAGGER = registerItem("golden_dagger",
             new SwordItem(ToolMaterials.GOLD, 2, -2, new FabricItemSettings()));
     public static final Item DIAMOND_DAGGER = registerItem("diamond_dagger",
@@ -58,6 +62,8 @@ public class ModItems {
             new SwordItem(ToolMaterials.STONE, 4, -2, new FabricItemSettings()));
     public static final Item IRON_KATANA = registerItem("iron_katana",
             new SwordItem(ToolMaterials.IRON, 4, -1, new FabricItemSettings()));
+    public static final Item COPPER_KATANA = registerItem("copper_katana",
+            new SwordItem(ModToolMaterials.COPPER, 4, -1, new FabricItemSettings()));
     public static final Item GOLDEN_KATANA = registerItem("golden_katana",
             new SwordItem(ToolMaterials.GOLD, 4, -2, new FabricItemSettings()));
     public static final Item DIAMOND_KATANA = registerItem("diamond_katana",
@@ -84,16 +90,34 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item AETHEREAL_BOOTS = registerItem("aethereal_boots",
             new ArmorItem(ModArmorMaterials.AETHEREAL, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
-    public static final Item CHERRY_SWORD = registerItem("cherry_sword",
-            new SwordItem(ToolMaterials.WOOD, 3, -2.4f, new FabricItemSettings().fireproof()));
+    public static final Item COPPER_HELMET = registerItem("copper_helmet",
+            new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item COPPER_SWORD = registerItem("copper_sword",
+            new SwordItem(ModToolMaterials.COPPER, 3, -2.4f, new FabricItemSettings()));
+    public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
+            new PickaxeItem(ModToolMaterials.COPPER, 1, -2.8f, new FabricItemSettings()));
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new AxeItem(ModToolMaterials.COPPER, 6, -3.1f, new  FabricItemSettings()));
+    public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
+            new ShovelItem(ModToolMaterials.COPPER, 1.5f, -3, new FabricItemSettings()));
+    public static final Item COPPER_HOE = registerItem("copper_hoe",
+            new HoeItem(ModToolMaterials.COPPER, 0, -1, new FabricItemSettings()));
+   public static final Item CHERRY_SWORD = registerItem("cherry_sword",
+            new SwordItem(ToolMaterials.WOOD, 3, -2.4f, new FabricItemSettings()));
     public static final Item CHERRY_PICKAXE = registerItem("cherry_pickaxe",
-            new PickaxeItem(ToolMaterials.WOOD, 1, -2.8f, new FabricItemSettings().fireproof()));
+            new PickaxeItem(ToolMaterials.WOOD, 1, -2.8f, new FabricItemSettings()));
     public static final Item CHERRY_AXE = registerItem("cherry_axe",
-            new AxeItem(ToolMaterials.WOOD, 6, -3.2f, new  FabricItemSettings().fireproof()));
+            new AxeItem(ToolMaterials.WOOD, 6, -3.2f, new  FabricItemSettings()));
     public static final Item CHERRY_SHOVEL = registerItem("cherry_shovel",
-            new ShovelItem(ToolMaterials.WOOD, 1.5f, -3, new FabricItemSettings().fireproof()));
+            new ShovelItem(ToolMaterials.WOOD, 1.5f, -3, new FabricItemSettings()));
     public static final Item CHERRY_HOE = registerItem("cherry_hoe",
-            new HoeItem(ToolMaterials.WOOD, 0, -3, new FabricItemSettings().fireproof()));
+            new HoeItem(ToolMaterials.WOOD, 0, -3, new FabricItemSettings()));
     private static void addItemsToWeaponsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(KATANA);
     }

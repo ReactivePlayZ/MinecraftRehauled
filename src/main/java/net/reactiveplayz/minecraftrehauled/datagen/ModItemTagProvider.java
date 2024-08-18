@@ -20,7 +20,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.AETHEREAL_HELMET, ModItems.AETHEREAL_CHESTPLATE,
-                    ModItems.AETHEREAL_LEGGINGS, ModItems.AETHEREAL_BOOTS);
+                    ModItems.AETHEREAL_LEGGINGS, ModItems.AETHEREAL_BOOTS)
+                .add(ModItems.COPPER_HELMET, ModItems.COPPER_CHESTPLATE,
+                    ModItems.COPPER_LEGGINGS, ModItems.COPPER_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.WOODEN_KNIFE)

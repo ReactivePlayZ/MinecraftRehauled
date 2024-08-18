@@ -1,5 +1,6 @@
 package net.reactiveplayz.minecraftrehauled.item;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -8,7 +9,9 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     AETHEREAL(5, 2501, 10.0f, 5.0f, 16,
-            () -> Ingredient.ofItems(Items.BEDROCK));
+            () -> Ingredient.ofItems(Items.BEDROCK)),
+    COPPER(MiningLevels.STONE, 143, 7.0f, 0.0f, 18,
+            () -> Ingredient.ofItems(Items.COPPER_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

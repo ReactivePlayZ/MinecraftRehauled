@@ -30,9 +30,19 @@ public class ModItemGroups {
                         entries.add(ModItems.AETHEREAL_CHESTPLATE);
                         entries.add(ModItems.AETHEREAL_LEGGINGS);
                         entries.add(ModItems.AETHEREAL_BOOTS);
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
                         entries.add(ModItems.WOODEN_KNIFE);
                         entries.add(ModItems.STONE_KNIFE);
                         entries.add(ModItems.IRON_KNIFE);
+                        entries.add(ModItems.COPPER_KNIFE);
                         entries.add(ModItems.GOLDEN_KNIFE);
                         entries.add(ModItems.DIAMOND_KNIFE);
                         entries.add(ModItems.NETHERITE_KNIFE);
@@ -40,6 +50,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WOODEN_DAGGER);
                         entries.add(ModItems.STONE_DAGGER);
                         entries.add(ModItems.IRON_DAGGER);
+                        entries.add(ModItems.COPPER_DAGGER);
                         entries.add(ModItems.GOLDEN_DAGGER);
                         entries.add(ModItems.DIAMOND_DAGGER);
                         entries.add(ModItems.NETHERITE_DAGGER);
@@ -47,6 +58,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WOODEN_KATANA);
                         entries.add(ModItems.STONE_KATANA);
                         entries.add(ModItems.IRON_KATANA);
+                        entries.add(ModItems.COPPER_KATANA);
                         entries.add(ModItems.GOLDEN_KATANA);
                         entries.add(ModItems.DIAMOND_KATANA);
                         entries.add(ModItems.NETHERITE_KATANA);
@@ -93,6 +105,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WOODEN_KNIFE);
                         entries.add(ModItems.STONE_KNIFE);
                         entries.add(ModItems.IRON_KNIFE);
+                        entries.add(ModItems.COPPER_KNIFE);
                         entries.add(ModItems.GOLDEN_KNIFE);
                         entries.add(ModItems.DIAMOND_KNIFE);
                         entries.add(ModItems.NETHERITE_KNIFE);
@@ -101,6 +114,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WOODEN_DAGGER);
                         entries.add(ModItems.STONE_DAGGER);
                         entries.add(ModItems.IRON_DAGGER);
+                        entries.add(ModItems.COPPER_DAGGER);
                         entries.add(ModItems.GOLDEN_DAGGER);
                         entries.add(ModItems.DIAMOND_DAGGER);
                         entries.add(ModItems.NETHERITE_DAGGER);
@@ -109,6 +123,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WOODEN_KATANA);
                         entries.add(ModItems.STONE_KATANA);
                         entries.add(ModItems.IRON_KATANA);
+                        entries.add(ModItems.COPPER_KATANA);
                         entries.add(ModItems.GOLDEN_KATANA);
                         entries.add(ModItems.DIAMOND_KATANA);
                         entries.add(ModItems.NETHERITE_KATANA);

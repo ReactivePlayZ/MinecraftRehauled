@@ -53,6 +53,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AETHEREAL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AETHEREAL_HOE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.CHERRY_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHERRY_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHERRY_AXE, Models.HANDHELD);
@@ -62,6 +68,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WOODEN_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STONE_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_KNIFE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_KNIFE, Models.HANDHELD);
@@ -70,6 +77,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WOODEN_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STONE_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_DAGGER, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_DAGGER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_DAGGER, Models.HANDHELD);
@@ -78,6 +86,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WOODEN_KATANA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STONE_KATANA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_KATANA, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_KATANA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_KATANA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_KATANA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NETHERITE_KATANA, Models.HANDHELD);
@@ -99,6 +108,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AETHEREAL_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
 
     }
 }

@@ -11,8 +11,10 @@ import net.reactiveplayz.minecraftrehauled.MinecraftRehauled;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    AETHEREAL("aethereal", 41, new int[] { 4, 7, 8, 4 }, 16,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0f, 0.1f, () -> Ingredient.ofItems(Items.BEDROCK))
+    AETHEREAL("aethereal", 41, new int[] { 4, 8, 7, 4 }, 16,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0f, 0.1f, () -> Ingredient.ofItems(Items.BEDROCK)),
+    COPPER("copper", 7, new int[] { 2, 5, 3, 1 }, 25,
+            SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.COPPER_INGOT))
     ;
     private final String name;
     private final int durabilityMultiplier;

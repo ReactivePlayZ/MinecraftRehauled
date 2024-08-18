@@ -1,11 +1,11 @@
-// 1.20.4	2024-08-13T00:51:38.9108033	Minecraft Rehauled/Tags for minecraft:item
+// 1.20.4	2024-08-18T22:11:22.9308371	Minecraft Rehauled/Tags for minecraft:item
 00f621d7be08cce14768f600b7ac50c93ef729bb data\minecraft\tags\items\wooden_buttons.json
 fccc2af325b5c1e007e2ef92cb6bc1aae12b0596 data\minecraft\tags\items\doors.json
 6b2cb54bc4b944fa40c67748546bc88e9f96eb1e data\minecraft\tags\items\planks.json
 290407f14341fbe954e3e9cd96f625fa4656733f data\minecraft\tags\items\minecraft_rehauled.json
 fccc2af325b5c1e007e2ef92cb6bc1aae12b0596 data\minecraft\tags\items\wooden_doors.json
 5459f14ca330c56c0505b351159926f40f84fcf7 data\minecraft\tags\items\swords.json
-157c563e129956b3353d8618f0d89ce217860ad7 data\minecraft\tags\items\trimmable_armor.json
+a01eaf9a99a6b1f3b290ecbd34f7cdb3173be57f data\minecraft\tags\items\trimmable_armor.json
 bb60558dd6a15f0f4924addca6f02115e0bdeba4 data\minecraft\tags\items\wooden_pressure_plates.json
 346cbd2feea73cc345d6e7993ace1b2f7fed71c7 data\minecraft\tags\items\stairs.json
 30f870565b239eba92f673310dbb7aad36062839 data\minecraft\tags\items\fences.json
