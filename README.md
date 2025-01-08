@@ -1,3 +1,6 @@
+##
+> Note: This mod is no longer being worked on. DM me if you want to modify it but do note that this mod might return in the future once I go back to modding.
+
 # Releases
 > All releases can be found on [my modrinth](https://modrinth.com/user/reactiveplayz).
 
@@ -6,7 +9,7 @@
 
 # But what actually is Minecraft Rehauled?
 > Minecraft Rehauled (Rehauled being a made up word symbolizing overhauled) **adds missing blocks, items, foods, armor, weapons and tools.** But not just server-side but client side too! What good is a mod for overhauling Minecraft if it's only server-side?
-
+> 
 > **As of now, there aren't bunch of additions** in the mod version. But **in the (broken) [datapack version](https://github.com/ReactivePlayZ/Minecraft-Rehauled-Datapack/releases/tag/v1.0.4-dev) you can see some of the features that I had in mind**. With me using mods instead, it actually has given me more ideas for the additions. I want to keep everything mostly semi-vanilla, but if I were to make addons for this mod, then I'd make it mostly seem modded or less vanilla like.
 
 # What it has right now/The current state of the mod
